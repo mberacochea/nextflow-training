@@ -1,34 +1,34 @@
 # Part 1: Hello World
 
-A "Hello World!" is a minimalist example that is meant to demonstrate the basic syntax and structure of a programming language or software framework. The example typically consists of printing the phrase "Hello, World!" to the output device, such as the console or terminal, or writing it to a file.
+Un "Hello World!" es un ejemplo minimalista que está destinado a demostrar la sintaxis básica y la estructura de un lenguaje de programación o framework de desarrollo. El ejemplo consiste típicamente en imprimir la frase "Hello, World!" en el dispositivo de salida, como la consola o terminal, o escribirla a un archivo.
 
-In this first part of the Hello Nextflow training course, we ease into the topic with a very simple domain-agnostic Hello World example, which we'll progressively build up to demonstrate the usage of foundational Nextflow logic and components.
+En esta primera parte del curso de Hello Nextflow, nos introduciremos gentilmente en el tema con un ejemplo muy simple de Hello World, que vamos a construir progresivamente para demostrar el uso de la lógica y componentes de Nextflow fundacional.
 
 ---
 
-## 0. Warmup: Run Hello World directly
+## 0. Warmup: Correr Hello World directamente
 
-Let's demonstrate this with a simple command that we run directly in the terminal, to show what it does before we wrap it in Nextflow.
+Vamos a demostrar esto con un simple comando que corremos directamente en el terminal, para mostrar lo que hace antes de portarlo a Nextflow.
 
-### 0.1. Make the terminal say hello
+### 0.1. Haz que el terminal diga hello
 
 ```bash
 echo 'Hello World!'
 ```
 
-### 0.2. Now make it write the text output to a file
+### 0.2. Ahora haz que escriba la salida de texto a un archivo
 
 ```bash
 echo 'Hello World!' > output.txt
 ```
 
-### 0.3. Verify that the output file is there using the `ls` command
+### 0.3. Verifique que el archivo de salida está allí utilizando el comando `ls`
 
 ```bash
 ls
 ```
 
-### 0.4. Show the file contents
+### 0.4. Mostrar el contenido del archivo
 
 ```bash
 cat output.txt
@@ -36,7 +36,9 @@ cat output.txt
 
 !!! tip
 
-    In the Gitpod environment, you can also find the output file in the file explorer, and view its contents by clicking on it. Alternatively, you can use the `code` command to open the file for viewing.
+    En el entorno Gitpod, también puede encontrar el archivo de salida en el explorador de 
+     archivos, y ver su contenido haciendo clic en él. Alternativamente, puede utilizar el 
+     comando `code` para abrir el archivo en el editor.
 
     ```bash
     code output.txt
@@ -46,9 +48,11 @@ cat output.txt
 
 You now know how to run a simple command in the terminal that outputs some text, and optionally, how to make it write the output to a file.
 
-### What's next?
+Ahora sabes cómo ejecutar un comando simple en la terminal que imprime un texto, y opcionalmente, cómo hacer para escribir la salida a un archivo.
 
-Discover what that would look like written as a Nextflow workflow.
+### ¿Qué sigue?
+
+Descubre como luciría escrito como un workflow de Nextflow.
 
 ---
 
